@@ -413,3 +413,7 @@ input[type=submit]:hover {
     opacity:
 border-radius: 0px !important;
 margin-top: 40px;}
+
+#check{ border-radius: 50px;
+width: 40%;
+margin-bottom: 20px;}
