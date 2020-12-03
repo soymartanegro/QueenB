@@ -207,7 +207,7 @@ font-weight: 600
 #backmenu { 
 padding: 100px;
 padding-bottom: 40px;
-background-image: url(images/menuback.png);
+background-image: url(images/menuback.jpg);
 background-size:cover;
 background-repeat: no-repeat;
 background-position:bottom;
@@ -415,5 +415,5 @@ margin-top: 40px;}
 #check{ border-radius: 50px;
 width: 50%;
 margin-bottom: 20px;
-color:darkgreen;
+color:lightyellow;
 font-weight: 500;}
