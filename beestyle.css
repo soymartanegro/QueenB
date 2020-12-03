@@ -415,6 +415,7 @@ border-radius: 0px !important;
 margin-top: 40px;}
 
 #check{ border-radius: 50px;
-width: 40%;
+width: 50%;
 margin-bottom: 20px;
-color:darkgreen;}
+color:darkgreen;
+font-weight: 500;}
