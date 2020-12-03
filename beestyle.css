@@ -231,7 +231,7 @@ background-blend-mode:darken;
 
 #feedback{
     padding: 60px;
-    background-image: url(images/feedbackcopy.png); 
+    background-image: url(images/feedbackreduce.png); 
     background-size:cover;
     background-repeat: no-repeat;
     border-radius: 10%;
