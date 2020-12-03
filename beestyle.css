@@ -1,0 +1,414 @@
+/*Styles and typographies*/
+
+h2 {
+    text-align: center;
+    color:black;
+}
+
+h3 {
+    text-align: center;
+    
+}
+
+h3.m{ font-size: 40px;
+}
+
+
+
+h4 {text-align: center;
+    padding: 12px;
+    font-size:26px;
+    color:black;
+}
+
+p.t {
+    text-align: center;
+    font-family: sans-serif;
+    color:white;
+    font-size: 21px;
+    
+}
+p.off{
+    color:crimson; 
+
+}
+
+p.f{
+    font-style: italic;
+    text-align: left;
+}
+
+p.f1{ font-style: italic;
+    text-align: right;
+}
+
+p.footer { color:bisque;
+
+}
+
+
+#rowt {
+
+    padding: 20px;
+}
+.d-flex{
+    padding: 20px;
+}
+
+.footer {
+ padding: 20px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:orange;
+  color: white;
+  text-align: center;
+}
+/*Styles buttons and boxes*/
+
+#headimg
+{padding:0px;}
+
+.boxed{
+    box-sizing: border-box;
+    background-color: #F89A1C;
+    border-radius: 40px;
+    opacity: 40%;
+}
+#boxedh{background-color: #F89A1C;
+    border-radius: 40px;
+    opacity: 75%; 
+padding: 12px;}
+
+    
+
+.btn{background-color: #80702D;
+    color: snow;
+    border-radius: 30px;
+    border-color: #CCA92C;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+}
+
+.btn:hover{ background-color: #F89A1C;
+    border-color: #80702D; 
+    color:snow !important;
+   
+}
+
+#hours{
+    
+    padding: 30px;
+    align-content: center;
+   
+}
+#address{
+    padding: 30px;
+    align-content: center; }
+
+#about1{padding:30px; }
+
+/*Style social media icons*/
+.fa {
+  padding: 15px;
+  font-size: 50px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 30%;
+}
+/* Facebook */
+.fa-facebook {
+  background: #80702D;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #80702D;
+  color: white;
+}
+
+/*Youtube*/
+.fa-youtube{
+     background:#80702D; 
+        color:white;
+}
+
+
+/*navbar*/
+.navbar-dark{ 
+    padding: 20px;
+    background-color:#80702D !important;
+
+}
+.navbar-nav{
+display:contents;
+vertical-align:top;
+width: 100%;
+color: aqua;
+
+}
+
+.navbar-nav a:hover{
+    color: orange!important;
+
+}
+
+.active, a:hover{
+    color: darkorange!important;
+}
+
+#collapsibleNavbar{
+  justify-content: center;
+
+}
+.nav-item{
+margin-left: 50px;
+    margin-right: 50px;
+}
+
+.nav-link{
+font-weight: 600
+}
+
+@media screen and (max-width: 600px) { 
+#logo { display:; }  
+}
+
+
+
+
+/*Styles backgrounds*/
+
+#jumbotron {
+    padding: 60px;
+    background-image: url(images/originals/JUMBOTRON.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position:bottom
+
+}
+#threecol{ 
+    background-image: url(images/backd.png);
+    background-size:cover;
+    background-position:bottom; }
+
+
+#google{
+    padding: 15px;
+    background-image:url(images/backd.png);
+    background-size:cover;
+    background-position:bottom; 
+    background-blend-mode:soft-light;
+}
+
+#backmenu { 
+padding: 100px;
+padding-bottom: 40px;
+background-image: url(images/menuback.png);
+background-size:cover;
+background-repeat: no-repeat;
+background-position:bottom;
+}
+
+#imgmenu{ padding: 20px; 
+    
+    text-align: center;
+
+}
+
+#staff{ 
+padding: 14px;
+background-image: url(images/backd.png); 
+background-size:cover;
+background-repeat: no-repeat;
+background-position:bottom;
+background-blend-mode:darken;
+
+}
+
+#feedback{
+    padding: 60px;
+    background-image: url(images/feedback%20copy.png); 
+    background-size:cover;
+    background-repeat: no-repeat;
+    border-radius: 10%
+
+
+}
+/*Images home*/
+
+#logo{
+    margin-bottom: -10px;
+    margin-top: -15px;
+}
+#honeyy{
+    border-radius: 10%;
+}
+
+#teahoney, #breadhoney, #cakehoney{ border-radius: 30%;}
+
+/*about*/
+
+p.ab{
+    font-weight: 600;
+}
+#about1{
+    background-image: url(images/backd.png);
+    background-size:cover;
+background-repeat: no-repeat;
+background-position:bottom;
+background-blend-mode:darken;
+    margin-bottom: 
+}
+
+#fun{ background-image: url(images/originals/backggg.jpg);
+    background-size:cover;
+background-repeat: no-repeat;
+background-position:bottom;
+background-blend-mode:darken;
+    padding: 35px;
+    padding-bottom: 30px;
+}
+
+#google1{
+    padding:25px;
+   
+}
+
+h3.about{
+    padding: 15px;
+
+}
+
+.boxed1{ 
+    box-sizing:content-box;
+    background-color: #F89A1C;
+    border-radius: 40px;
+    opacity: 70%; }
+
+.boxed2{ box-sizing:content-box;
+    background-color: #FACD99;
+    border-radius: 20px;
+    opacity: 90%;
+padding: 20px;}
+
+.list-group{ 
+list-style-type: none;
+ }
+
+.table-borderless{
+    margin: 20px;
+   margin-bottom: 20px;
+}
+#table2{ margin: 30px;
+margin-bottom: 20px;}
+
+
+/*SHOP*/
+
+p.card-text{
+    size:20px;
+    font-weight:;
+}
+.card-deck{
+    padding: 20px;
+}
+.h3shop{
+    padding: 15px;
+}
+
+/*WORKSHOP*/
+
+.h3workshop{
+    padding: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.card-body{
+   background-color:cornsilk;
+
+}
+.card-header{
+    background-color:#FED00C;
+    font-weight:900;
+   
+}
+
+.card-title{
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+.bodyworkshop{
+    background-image: url(images/backtwoworkshop.png);
+    background-size:cover;
+background-repeat: no-repeat;
+   margin-bottom:10px;}
+    
+.bodynewsletter{ background-image: url(images/backnewsletter.png);
+    background-size:cover;
+background-repeat: no-repeat; }
+
+    
+
+
+
+#imgworkshop{
+    padding: 30px;
+    
+}
+
+/*contact*/
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 14px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+
+  background-color: #80702D;
+  color: white;
+  padding: 12px 20px;
+  border: solid;
+  border-color: #CCA92C;
+  border-radius: 30px;
+  cursor: pointer;
+  width:80%;
+  margin-right: 90px;
+  margin-left: 90px;
+   
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #F89A1C;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #FADBA5;
+  padding: 20px;
+}
+
+#rowcontact{
+    padding: 40px;
+}
+
+
+/*STYLE NEWSLETTER FORM*/
+
+#newsletter{ background-color:transparent;
+    opacity:
+border-radius: 0px !important;}
