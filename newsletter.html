@@ -60,7 +60,23 @@ crossorigin="anonymous"></script>
     
 <!--form-->
 
-  
+  <div class="container">
+  <form action="action_page.php" data-netlify="true">
+      <div class="container" style="margin-top: 80px" id="newsletter">
+    <h2>Subscribe to our Newsletter</h2>
+
+  </div>
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name">
+
+    <label for="lname">Email</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your email">
+
+    <input type="submit" value="suscribe">
+
+  </form>
+</div>
     <form action="action_page.php" data-netlify="true">
   <div class="container" style="margin-top: 80px" id="newsletter">
     <h2>Subscribe to our Newsletter</h2>
@@ -69,8 +85,8 @@ crossorigin="anonymous"></script>
 
   <div class="container" id="newsletter" style="background-color:hsla(0, 100%, 90%, 0.3);">
       
-    <input type="name" placeholder="Name" name="name" required>
-    <input type="email" placeholder="Email address" name="mail" required>
+    <input type="text" placeholder="Name" name="name" required>
+    <input type="text" placeholder="Email address" name="mail" required>
     <label>
       <input type="checkbox" checked="checked" name="subscribe"> I agree to the terms and conditions (no spam, promised)
     </label>
