@@ -84,12 +84,10 @@ td {font-family: "Raleway", sans-serif;
 /*--font contact*/
 input{
     font-family: "Raleway", sans-serif;
-    font-weight: 200;}
+    font-weight: 500;}
 
 label{font-family: "Raleway", sans-serif;
-    font-weight: 200;}
-
-
+    font-weight: 400;}
 
 
 
@@ -171,18 +169,21 @@ padding: 12px;}
 .fa-facebook {
   background: #80702D;
   color: white;
+box-shadow: 5px 5px 15px grey;
 }
 
 /* Twitter */
 .fa-twitter {
   background: #80702D;
   color: white;
+    box-shadow: 5px 5px 15px grey;
 }
 
 /*Youtube*/
 .fa-youtube{
      background:#80702D; 
         color:white;
+    box-shadow: 5px 5px 15px grey;
 }
 
 
@@ -296,9 +297,13 @@ background-blend-mode:darken;
 }
 #honeyy{
     border-radius: 10%;
+    box-shadow: 5px 1px 40px burlywood ;
+    color:
 }
 
-#teahoney, #breadhoney, #cakehoney{ border-radius: 30%;}
+#teahoney, #breadhoney, #cakehoney{ border-radius: 30%;
+box-shadow: 5px 10px 5px grey;
+}
 
 /*about*/
 
