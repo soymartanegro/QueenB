@@ -3,14 +3,20 @@
 h2 {
     text-align: center;
     color:black;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
 }
 
 h3 {
     text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
     
 }
 
 h3.m{ font-size: 40px;
+     font-family: "Raleway", sans-serif;
+    font-weight: 600;
 }
 
 
@@ -19,32 +25,72 @@ h4 {text-align: center;
     padding: 12px;
     font-size:26px;
     color:black;
+     font-family: "Raleway", sans-serif;
+    font-weight: 600;
 }
+
+h5{font-family: "Raleway", sans-serif;
+    font-weight: 600;}
+
+p{   font-family: "Raleway", sans-serif;
+    font-weight: 200;
+}
+
 
 p.t {
     text-align: center;
     font-family: sans-serif;
     color:white;
     font-size: 21px;
+   font-family: "Raleway", sans-serif;
+    font-weight: 300;
     
 }
 p.off{
-    color:crimson; 
+    color:crimson;
+    font-size: 21px;
+  font-family: "Raleway", sans-serif;
+    font-weight: 500;
 
 }
 
 p.f{
     font-style: italic;
     text-align: left;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
 }
 
 p.f1{ font-style: italic;
     text-align: right;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
 }
+p.foot{  font-family: "Raleway", sans-serif;
+    font-weight: 500;
+margin-right: 30px;}
 
 p.footer { color:bisque;
+   font-family: "Raleway", sans-serif;
+    font-weight: 700;
 
 }
+
+td {font-family: "Raleway", sans-serif;
+    font-weight: 200; 
+
+}
+
+/*--font contact*/
+input{
+    font-family: "Raleway", sans-serif;
+    font-weight: 200;}
+
+label{font-family: "Raleway", sans-serif;
+    font-weight: 200;}
+
+
+
 
 
 #rowt {
@@ -63,6 +109,7 @@ p.footer { color:bisque;
   background-color:orange;
   color: white;
   text-align: center;
+    
 }
 /*Styles buttons and boxes*/
 
@@ -89,6 +136,8 @@ padding: 12px;}
     width: 250px;
     height: 40px;
     text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
 }
 
 .btn:hover{ background-color: #F89A1C;
@@ -166,7 +215,10 @@ color: aqua;
 }
 .nav-item{
 margin-left: 50px;
-    margin-right: 50px;
+margin-right: 50px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 100;
+    letter-spacing: 3px;
 }
 
 .nav-link{
@@ -174,7 +226,7 @@ font-weight: 600
 }
 
 @media screen and (max-width: 600px) { 
-#logo { display:; }  
+#logo { display:;}  
 }
 
 
@@ -251,7 +303,9 @@ background-blend-mode:darken;
 /*about*/
 
 p.ab{
-    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+    font-weight: 200;
+   
 }
 #about1{
     background-image: url(images/backd.png);
@@ -278,6 +332,7 @@ background-blend-mode:darken;
 
 h3.about{
     padding: 15px;
+    font-family: "Raleway", sans-serif;
 
 }
 
@@ -285,7 +340,7 @@ h3.about{
     box-sizing:content-box;
     background-color: #F89A1C;
     border-radius: 40px;
-    opacity: 70%; }
+    opacity: 80%; }
 
 .boxed2{ box-sizing:content-box;
     background-color: #FACD99;
@@ -308,14 +363,18 @@ margin-bottom: 20px;}
 /*SHOP*/
 
 p.card-text{
-    size:20px;
-    font-weight:;
+    size:10px;
+    padding: 15px;
+    font-family: "Raleway",sans-serif;
+    font-weight: 400;
+
 }
 .card-deck{
     padding: 20px;
 }
-.h3shop{
-    padding: 15px;
+.h3shop{ font-family: "Raleway", sans-serif;
+    font-weight: 700;
+     padding: 15px;
 }
 
 /*WORKSHOP*/
@@ -323,6 +382,7 @@ p.card-text{
 .h3workshop{
     padding: 40px;
     text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
 }
 
@@ -332,12 +392,15 @@ p.card-text{
 }
 .card-header{
     background-color:#FED00C;
-    font-weight:900;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size:20px;
    
 }
 
 .card-title{
-    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
     padding-top: 20px;
 }
 
@@ -352,8 +415,6 @@ background-repeat: no-repeat;
 background-repeat: no-repeat; }
 
     
-
-
 
 #imgworkshop{
     padding: 30px;
