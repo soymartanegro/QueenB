@@ -90,10 +90,10 @@ td {font-family: "Raleway", sans-serif;
 /*--font contact*/
 input{
     font-family: "Raleway", sans-serif;
-    font-weight: 500;}
+    font-weight: 600;}
 
 label{font-family: "Raleway", sans-serif;
-    font-weight: 400;}
+    font-weight: 600;}
 
 
 
@@ -118,7 +118,9 @@ label{font-family: "Raleway", sans-serif;
 /*Styles buttons and boxes*/
 
 #headimg
-{padding:0px;}
+{ height: auto;
+width: auto;
+}
 
 .boxed{
     box-sizing: border-box;
@@ -233,7 +235,7 @@ font-weight: 600
 }
 
 @media screen and (max-width: 600px) { 
-#logo { display:;}  
+#logo { display; }  
 }
 
 
@@ -304,7 +306,6 @@ background-blend-mode:darken;
 #honeyy{
     border-radius: 10%;
     box-shadow: 5px 1px 40px burlywood ;
-    color:
 }
 
 #teahoney, #breadhoney, #cakehoney{ border-radius: 30%;
@@ -324,7 +325,6 @@ p.ab{
 background-repeat: no-repeat;
 background-position:bottom;
 background-blend-mode:darken;
-    margin-bottom: 
 }
 
 #fun{ background-image: url(images/originals/backggg.jpg);
@@ -374,7 +374,6 @@ margin-bottom: 20px;}
 /*SHOP*/
 
 p.card-text{
-    size:10px;
     padding: 15px;
     font-family: "Raleway",sans-serif;
     font-weight: 400;
@@ -480,8 +479,7 @@ input[type=submit]:hover {
 /*STYLE NEWSLETTER FORM*/
 
 #newsletter{ background-color:transparent;
-    opacity:
-border-radius: 0px !important;
+border-radius: 0px;
 margin-top: 40px;}
 
 #check{ border-radius: 50px;
@@ -489,3 +487,5 @@ width: 50%;
 margin-bottom: 20px;
 color:lightyellow;
 font-weight: 500;}
+
+@media only screen and (max-width: 480px)
