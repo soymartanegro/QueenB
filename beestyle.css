@@ -243,7 +243,7 @@ font-weight: 600
 /*Styles backgrounds*/
 
 #jumbotron {
-    padding: 60px;
+    padding: 70px;
     background-image: url(images/originals/JUMBOTRON.png);
     background-size: auto;
     background-repeat: no-repeat;
@@ -253,11 +253,12 @@ font-weight: 600
 #threecol{ 
     background-image: url(images/backd.png);
     background-size:cover;
-    background-position:bottom; }
+    background-position:bottom;
+padding: 30px; }
 
 
 #google{
-    padding: 15px;
+    padding: 30px;
     background-image:url(images/backd.png);
     background-size:cover;
     background-position:bottom; 
@@ -280,7 +281,7 @@ background-position:bottom;
 }
 
 #staff{ 
-padding: 14px;
+padding: 30px;
 background-image: url(images/backd.png); 
 background-size:cover;
 background-repeat: no-repeat;
