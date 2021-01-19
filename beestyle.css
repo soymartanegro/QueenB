@@ -384,7 +384,8 @@ p.card-text{
 }
 .h3shop{ font-family: "Raleway", sans-serif;
     font-weight: 700;
-     padding: 15px;
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 
 /*WORKSHOP*/
