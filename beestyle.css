@@ -337,7 +337,7 @@ background-blend-mode:darken;
 }
 
 #google1{
-    padding:25px;
+    padding:40px;
    
 }
 
@@ -357,7 +357,9 @@ h3.about{
     background-color: #FACD99;
     border-radius: 20px;
     opacity: 90%;
-padding: 20px;}
+    padding: 40px;
+
+}
 
 .list-group{ 
 list-style-type: none;
@@ -476,6 +478,18 @@ input[type=submit]:hover {
     padding: 40px;
 }
 
+    /* SHOP NOW*/
+
+#now1 { padding: 40px;
+padding-top: 60px;}
+
+.h3now{ padding-top: 40px; 
+font-family: "Raleway", sans-serif;
+    font-weight: 700;
+}
+        
+
+
 
 /*STYLE NEWSLETTER FORM*/
 
@@ -491,4 +505,8 @@ font-weight: 500;}
 
 @media only screen and (max-width: 480px)
     
+    
+
+    
+
    
