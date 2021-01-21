@@ -244,7 +244,7 @@ font-weight: 600
 /*Styles backgrounds*/
 
 #jumbotron {
-    padding: 70px;
+    padding: 100px;
     background-image: url(images/originals/JUMBOTRON.png);
     background-size: auto;
     background-repeat: no-repeat;
